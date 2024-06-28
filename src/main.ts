@@ -42,6 +42,13 @@ function reBuild() { // function to enter the generated name into the DOM at #ge
   }
 }
 
+function likeName(): void {
+
+}
+
+function bookmarkName(): void {
+
+}
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
